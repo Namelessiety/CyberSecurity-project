@@ -54,18 +54,13 @@ nextBtn.addEventListener("click", function onNext() {
           hasLowerCase &&
           hasDigit &&
           hasSpecialChar) {
-        navBtns.innerHTML = `      <button class="btn" class="btn" id="nextbtn">Next</button>`
-        nextBtn.addEventListener("click",function moveon(){
-          
-        } )
-      }else{
-        alert('WRONG')
-      }
-      })
+        navBtns.innerHTML = `      <a href="stage4.html"><button class="btn" class="btn" id="nextbtn">Next</button></a>`
+          }
 
     });
   }
-});
+    )}
+})
 
 
 

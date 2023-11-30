@@ -4,15 +4,23 @@ body, h1, p {
     padding: 0;
   }
   
+  #ciphertext{
+    font-size: 10px;;
+  }
+
   .btn{
     border: 3px solid #57CC99;
     background-color: #C7F9CC;
   }
 
+  #maintxt{
+    font-size: 90%;
+  }
+
   #contcrd{
     display:flex;
     justify-content: center;
-    margin-top:100px;
+    margin-top:60px;
   }
 
   .content{
