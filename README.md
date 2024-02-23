@@ -1,1 +1,1 @@
-Number 1 winner of HTML in Alhoffaz academy
+id advise against opening this site is on mobile, it was made with only desktop in mind.
