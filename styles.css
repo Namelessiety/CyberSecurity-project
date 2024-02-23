@@ -1,0 +1,194 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #ciphertext{
+    font-size: 10px;;
+  }
+
+  .btn{
+    border: 3px solid #57CC99;
+    background-color: #C7F9CC;
+  }
+
+
+
+  #maintxt{
+    font-size: 90%;
+  }
+
+  #contcrd{
+    display:flex;
+    justify-content: center;
+    margin-top:60px;
+  }
+  .content {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    font-size: 25px;
+    border: 3px solid #57CC99;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #C7F9CC;
+    width: 650px;
+    height: 325px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 1.5s;
+  }
+  
+  .content  ul{
+    text-align:left;
+  }
+
+  #contcrd :hover{
+    border-color: #22577A;
+  }
+
+
+  button{
+    border-radius:50px;
+    width:70px;
+  }
+
+  .title-bar {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #38A3A5; /* Blue color */
+    color: #ffffff; /* White text color */
+    padding: 20px 0;
+    box-shadow: 10px 10px 23px lightblue;
+  }
+  
+  .title-bar h1 {
+    font-size: 28px;
+  }
+
+  #title-btns{
+    margin-left: 50px;
+    margin-top:6.5px;
+  }
+
+  #title-txt{
+    margin-top:6.5px;
+  }
+
+  #nav-btns{
+    display:flex;
+    justify-content: center;
+    margin-top:25px;
+  }
+
+  #nextbtn{
+    width:325px;
+    margin-left:10px;
+    height:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration:0.5s
+  }
+
+  #nextbtn:hover{
+    border-color: #22577A;
+  }
+
+
+  #prevbtn:hover {
+    border-color: crimson;
+  }
+
+  #prevbtn{
+    width:325px;
+    height:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration:1.5s
+  }
+
+  .sadbtn{
+    border: 3px solid #2c3531;
+    background-color: #e4e7e4;
+  }
+
+#passinput{
+  width:650px;
+  height:40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid #57CC99;
+  background-color: #C7F9CC;
+  border-radius:15px
+}
+
+#passinput::placeholder{
+  color:black;
+  text-align:center;
+}
+  
+
+#cipherinput{
+  width:650px;
+  height:40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid #57CC99;
+  background-color: #C7F9CC;
+  border-radius:15px
+}
+
+#cipherinput::placeholder{
+  color:black;
+  text-align:center;
+}
+
+  #startbtn{
+    margin-left: 522px;
+    margin-top:20px;
+    width:325px;
+    height:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:1px 1px 10px 6px #57CC99;
+    animation: fadeIn 2s ease-in; 
+    transition-duration:1.5s;
+  }
+  #startbtn:hover{
+    box-shadow:1px 1px 10px 6px blue;
+    border-color:blue;
+  }
+
+  #restartbtn{
+    width:325px;
+    margin-left:10px;
+    height:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration:0.5s
+  }
+  #restartbtn:hover{
+    border-color:blue;
+  }
+
+  @keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
+
+
+ #submit{
+  width:100px;
+  height:46px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid #57CC99;
+  background-color: #C7F9CC;
+  border-radius:15px;
+  margin-left:10px;
+  transition-duration:1.5s;
+}
+
+#submit:hover{
+  border-color:rgb(60, 220, 20);
+}
